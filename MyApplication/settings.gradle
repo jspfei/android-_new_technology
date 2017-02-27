@@ -1,1 +1,1 @@
-include ':app', ':butterknife', ':androiduilistener'
+include ':app', ':butterknife', ':androiduilistener', ':httpdemo'

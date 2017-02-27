@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/androiduilistener" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/httpdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
