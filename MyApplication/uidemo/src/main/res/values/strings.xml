@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UiDemo</string>
+    <string name="dialog_manager">自定义对话框管理</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+</resources>
