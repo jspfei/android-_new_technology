@@ -1,1 +1,1 @@
-include ':app', ':butterknife', ':androiduilistener', ':httpdemo', ':jsondemo', ':uidemo', ':manifestdemo'
+include ':app', ':butterknife', ':androiduilistener', ':httpdemo', ':jsondemo', ':uidemo', ':manifestdemo', ':jfutils'
