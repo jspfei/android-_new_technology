@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <fragment
+        android:id="@+id/fragment_cycle_viewpager_content"
+        android:name="com.game.basicdemo.lib.CycleViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="180dip" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+        <GridView
+            android:id="@+id/class_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnWidth="@dimen/dp_16"
+            android:numColumns="4"
+            android:verticalSpacing="@dimen/dp_5"
+            android:horizontalSpacing="@dimen/dp_5"
+            android:gravity="center"
+            >
+
+
+        </GridView>
+
+        <Button
+            android:text="Jump To Next Close All Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="94dp"
+            android:textAllCaps="false"
+            android:id="@+id/exit_screen_btn" />
+    </RelativeLayout>
+</LinearLayout>
