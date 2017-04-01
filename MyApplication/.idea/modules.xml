@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidbasicskill/androidbasicskill.iml" filepath="$PROJECT_DIR$/androidbasicskill/androidbasicskill.iml" />
       <module fileurl="file://$PROJECT_DIR$/androiduilistener/androiduilistener.iml" filepath="$PROJECT_DIR$/androiduilistener/androiduilistener.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base64/base64.iml" filepath="$PROJECT_DIR$/base64/base64.iml" />
