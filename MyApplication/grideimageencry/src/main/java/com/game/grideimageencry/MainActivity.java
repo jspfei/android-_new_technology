@@ -3,7 +3,6 @@ package com.game.grideimageencry;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
 
@@ -35,7 +34,5 @@ public class MainActivity extends AppCompatActivity {
                 .skipMemoryCache( true )
                 .placeholder(R.mipmap.ic_launcher)
                 .crossFade().into(iv_test);
-
-        Log.i("HACK-TAG","sss");
     }
 }
