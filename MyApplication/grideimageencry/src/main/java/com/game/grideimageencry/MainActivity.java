@@ -24,14 +24,17 @@ public class MainActivity extends AppCompatActivity {
         iv_test = (ImageView) findViewById(R.id.iv_test);
         getImageView();
     }
+/*
+ .diskCacheStrategy( DiskCacheStrategy.NONE )
+                .skipMemoryCache( true )
 
+                */
     private void getImageView(){
-        Glide
+                Glide
                 .with(context)
                 .load(url)
                 .centerCrop()
-                .diskCacheStrategy( DiskCacheStrategy.NONE )
-                .skipMemoryCache( true )
+
                 .placeholder(R.mipmap.ic_launcher)
                 .crossFade().into(iv_test);
     }

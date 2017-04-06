@@ -1,0 +1,26 @@
+<img id="head_background" src="images/bg.jpg"/>
+<script>
+    var json = window.weichat.getJson();
+    var infos = eval(json);
+    for(var i = 0;i<infos.length;i++){
+        info = infos[i];
+        var img = info.icon;
+        var username = info.name;
+        var content = info.content;
+        $("#head_background").after("<div ><div id='nav'><img src=" + img + " /></div><div id='info'><div id='userName'>" + userName + "</div><p id='content'>" + content + "</p></div></div>");
+        $("#userName").click(
+            function() {
+                var str = $(this).text();
+                window.weichat.showToast(str);
+            }
+        )
+        $("#content").click(
+            function() {
+                var str = $(this).text();
+                window.weichat.showToast(str);
+            }
+        )
+    }
+
+
+</script>
