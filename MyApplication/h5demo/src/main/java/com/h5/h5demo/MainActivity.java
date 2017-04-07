@@ -29,18 +29,23 @@ public class MainActivity extends AppCompatActivity {
         mWebView = (WebView)findViewById(R.id.main_web_view);
         //解决点击链接跳转浏览器问题
         mWebView.setWebViewClient(new WebViewClient());
-        //js支持
-        WebSettings settings = mWebView.getSettings();
-        settings.setJavaScriptEnabled(true);
+        WebSettings webSettings = mWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
+        webSettings.setAllowFileAccess(true);// 设置允许访问文件数据
+        webSettings.setSupportZoom(true);
+        webSettings.setBuiltInZoomControls(true);
+        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
+        webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        webSettings.setDomStorageEnabled(true);
+        webSettings.setDatabaseEnabled(true);
 
-        //允许访问assets 目录
-        settings.setAllowFileAccess(true);
         //设置WebView排版算法, 实现单列显示, 不允许横向移动
-        settings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+        webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
         //assets文件路径
         String path = "http://m.51gocai.com";
         //添加json
-        addJson();
+     //   addJson();
         //加载html页面
         mWebView.loadUrl(path);
     }
