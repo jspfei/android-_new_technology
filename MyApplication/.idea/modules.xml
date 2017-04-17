@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/base64/base64.iml" filepath="$PROJECT_DIR$/base64/base64.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicdemo/basicdemo.iml" filepath="$PROJECT_DIR$/basicdemo/basicdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendao/greendao.iml" filepath="$PROJECT_DIR$/greendao/greendao.iml" />
       <module fileurl="file://$PROJECT_DIR$/grideimageencry/grideimageencry.iml" filepath="$PROJECT_DIR$/grideimageencry/grideimageencry.iml" />
       <module fileurl="file://$PROJECT_DIR$/h5demo/h5demo.iml" filepath="$PROJECT_DIR$/h5demo/h5demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpdemo/httpdemo.iml" filepath="$PROJECT_DIR$/httpdemo/httpdemo.iml" />
