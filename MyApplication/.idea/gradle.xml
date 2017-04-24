@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/actionsheet" />
             <option value="$PROJECT_DIR$/androidbasicskill" />
             <option value="$PROJECT_DIR$/androiduilistener" />
             <option value="$PROJECT_DIR$/app" />
