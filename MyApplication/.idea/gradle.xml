@@ -3,9 +3,8 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="E:/project/gralde/gradle-3.5-all/gradle-3.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -16,13 +15,13 @@
             <option value="$PROJECT_DIR$/basicdemo" />
             <option value="$PROJECT_DIR$/butterknife" />
             <option value="$PROJECT_DIR$/glideencry" />
-            <option value="$PROJECT_DIR$/greendao" />
             <option value="$PROJECT_DIR$/grideimageencry" />
             <option value="$PROJECT_DIR$/h5demo" />
             <option value="$PROJECT_DIR$/httpdemo" />
             <option value="$PROJECT_DIR$/jfutils" />
             <option value="$PROJECT_DIR$/jsondemo" />
             <option value="$PROJECT_DIR$/manifestdemo" />
+            <option value="$PROJECT_DIR$/slidingmenu" />
             <option value="$PROJECT_DIR$/uidemo" />
           </set>
         </option>
