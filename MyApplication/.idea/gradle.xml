@@ -26,6 +26,8 @@
             <option value="$PROJECT_DIR$/manifestdemo" />
             <option value="$PROJECT_DIR$/paintdemo" />
             <option value="$PROJECT_DIR$/slidingmenu" />
+            <option value="$PROJECT_DIR$/textdrawabledemo" />
+            <option value="$PROJECT_DIR$/textdrawablelibrary" />
             <option value="$PROJECT_DIR$/uidemo" />
           </set>
         </option>

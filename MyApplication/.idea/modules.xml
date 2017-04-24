@@ -21,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/manifestdemo/manifestdemo.iml" filepath="$PROJECT_DIR$/manifestdemo/manifestdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/paintdemo/paintdemo.iml" filepath="$PROJECT_DIR$/paintdemo/paintdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textdrawabledemo/textdrawabledemo.iml" filepath="$PROJECT_DIR$/textdrawabledemo/textdrawabledemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textdrawablelibrary/textdrawablelibrary.iml" filepath="$PROJECT_DIR$/textdrawablelibrary/textdrawablelibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidemo/uidemo.iml" filepath="$PROJECT_DIR$/uidemo/uidemo.iml" />
     </modules>
   </component>
