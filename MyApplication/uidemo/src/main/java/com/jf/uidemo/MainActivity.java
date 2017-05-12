@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.i("HACK-TAG","onCreate  ");
+        Log.d("HACK-TAG","onCreate  ");
         setContentView(R.layout.activity_main);
 
         mContext = this;
@@ -29,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.button_dialog){
+            Log.i("HACK-TAG","onClick  ");
+            Log.d("HACK-TAG","onClick  ");
             Intent intent = new Intent();
             intent.setClass(mContext, DialogManagerActivity.class);
             startActivity(intent);

@@ -3,6 +3,7 @@ package com.jf.uidemo.activity;
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -16,7 +17,8 @@ public class DialogManagerActivity extends AppCompatActivity implements View.OnC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialog_manager);
-
+        Log.i("HACK-TAG","DialogManagerActivity onClick  ");
+        Log.d("HACK-TAG","DialogManagerActivity onClick  ");
         button_custom_dialog = (Button) findViewById(R.id.button_custom_dialog);
         button_custom_dialog.setOnClickListener(this);
     }
@@ -32,6 +34,9 @@ public class DialogManagerActivity extends AppCompatActivity implements View.OnC
         }
     }
     private void openCustomDialog(){
+        Log.i("HACK-TAG","DialogManagerActivity openCustomDialog  ");
+        Log.d("HACK-TAG","DialogManagerActivity openCustomDialog  ");
+
         CustomDialog.Builder builder = new CustomDialog.Builder(this);
         builder.setMessage("自定义文本");
         builder.setTitle("提示");

@@ -10,10 +10,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/actionsheet" />
             <option value="$PROJECT_DIR$/androidbasicskill" />
+            <option value="$PROJECT_DIR$/androiddynamicloadclient" />
+            <option value="$PROJECT_DIR$/androiddynamicloadingproxy" />
             <option value="$PROJECT_DIR$/androiduilistener" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/base64" />
             <option value="$PROJECT_DIR$/basicdemo" />
+            <option value="$PROJECT_DIR$/broadcastreceiverdemo" />
             <option value="$PROJECT_DIR$/butterknife" />
             <option value="$PROJECT_DIR$/dropdownmenu" />
             <option value="$PROJECT_DIR$/fancycoverflow" />
@@ -21,13 +23,19 @@
             <option value="$PROJECT_DIR$/grideimageencry" />
             <option value="$PROJECT_DIR$/h5demo" />
             <option value="$PROJECT_DIR$/httpdemo" />
+            <option value="$PROJECT_DIR$/interproceeactivityone" />
+            <option value="$PROJECT_DIR$/interprocessactivitytwo" />
             <option value="$PROJECT_DIR$/jfutils" />
             <option value="$PROJECT_DIR$/jsondemo" />
             <option value="$PROJECT_DIR$/manifestdemo" />
+            <option value="$PROJECT_DIR$/msgreceiver" />
             <option value="$PROJECT_DIR$/paintdemo" />
+            <option value="$PROJECT_DIR$/serviceclientdemo" />
+            <option value="$PROJECT_DIR$/servicedemo" />
             <option value="$PROJECT_DIR$/slidingmenu" />
             <option value="$PROJECT_DIR$/textdrawabledemo" />
             <option value="$PROJECT_DIR$/textdrawablelibrary" />
+            <option value="$PROJECT_DIR$/twoactivitytest" />
             <option value="$PROJECT_DIR$/uidemo" />
           </set>
         </option>

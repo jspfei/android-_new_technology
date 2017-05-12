@@ -5,10 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/actionsheet/actionsheet.iml" filepath="$PROJECT_DIR$/actionsheet/actionsheet.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidbasicskill/androidbasicskill.iml" filepath="$PROJECT_DIR$/androidbasicskill/androidbasicskill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androiddynamicloadclient/androiddynamicloadclient.iml" filepath="$PROJECT_DIR$/androiddynamicloadclient/androiddynamicloadclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androiddynamicloadingproxy/androiddynamicloadingproxy.iml" filepath="$PROJECT_DIR$/androiddynamicloadingproxy/androiddynamicloadingproxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/androiduilistener/androiduilistener.iml" filepath="$PROJECT_DIR$/androiduilistener/androiduilistener.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base64/base64.iml" filepath="$PROJECT_DIR$/base64/base64.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicdemo/basicdemo.iml" filepath="$PROJECT_DIR$/basicdemo/basicdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceiverdemo/broadcastreceiverdemo.iml" filepath="$PROJECT_DIR$/broadcastreceiverdemo/broadcastreceiverdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/butterknife/butterknife.iml" />
       <module fileurl="file://$PROJECT_DIR$/dropdownmenu/dropdownmenu.iml" filepath="$PROJECT_DIR$/dropdownmenu/dropdownmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/fancycoverflow/fancycoverflow.iml" filepath="$PROJECT_DIR$/fancycoverflow/fancycoverflow.iml" />
@@ -16,13 +18,19 @@
       <module fileurl="file://$PROJECT_DIR$/grideimageencry/grideimageencry.iml" filepath="$PROJECT_DIR$/grideimageencry/grideimageencry.iml" />
       <module fileurl="file://$PROJECT_DIR$/h5demo/h5demo.iml" filepath="$PROJECT_DIR$/h5demo/h5demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpdemo/httpdemo.iml" filepath="$PROJECT_DIR$/httpdemo/httpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interproceeactivityone/interproceeactivityone.iml" filepath="$PROJECT_DIR$/interproceeactivityone/interproceeactivityone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interprocessactivitytwo/interprocessactivitytwo.iml" filepath="$PROJECT_DIR$/interprocessactivitytwo/interprocessactivitytwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jfutils/jfutils.iml" filepath="$PROJECT_DIR$/jfutils/jfutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsondemo/jsondemo.iml" filepath="$PROJECT_DIR$/jsondemo/jsondemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/manifestdemo/manifestdemo.iml" filepath="$PROJECT_DIR$/manifestdemo/manifestdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msgreceiver/msgreceiver.iml" filepath="$PROJECT_DIR$/msgreceiver/msgreceiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/paintdemo/paintdemo.iml" filepath="$PROJECT_DIR$/paintdemo/paintdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceclientdemo/serviceclientdemo.iml" filepath="$PROJECT_DIR$/serviceclientdemo/serviceclientdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/textdrawabledemo/textdrawabledemo.iml" filepath="$PROJECT_DIR$/textdrawabledemo/textdrawabledemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/textdrawablelibrary/textdrawablelibrary.iml" filepath="$PROJECT_DIR$/textdrawablelibrary/textdrawablelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twoactivitytest/twoactivitytest.iml" filepath="$PROJECT_DIR$/twoactivitytest/twoactivitytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidemo/uidemo.iml" filepath="$PROJECT_DIR$/uidemo/uidemo.iml" />
     </modules>
   </component>
