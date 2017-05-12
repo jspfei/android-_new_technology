@@ -21,14 +21,21 @@
         </activity>
         <activity android:name="net.tt.twoactivitytest.SubActivity"
             android:process = ":shy.jf.process.sub"
-            android:theme="@android:style/Theme.Translucent"
+
+            android:theme="@style/Theme.Transparent"
+
             >
+           <!-- android:theme="@android:style/Theme.NoTitleBar.Fullscreen"-->
+            <!--android:theme="@android:style/Theme.Translucent"-->
+           <!-- @android:style/Theme.Holo.DialogWhenLarge-->
             <intent-filter>
                 <action android:name="shy.luo.task.subactivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <service android:name="net.tt.twoactivitytest.ExampleService"/>
+
     </application>
 
 </manifest>

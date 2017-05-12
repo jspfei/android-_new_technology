@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -25,14 +27,39 @@ public class SubActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //setContentView(R.layout.sub);
 
+         sendBoar("create");
+        super.onCreate(savedInstanceState);
+         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.setVisible(false);
+        // setContentView(R.layout.sub);
+       // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,  WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
        // finishButton = (Button)findViewById(R.id.button);
         //finishButton.setOnClickListener(this);
-
+       // longTimeAction();
+        Intent intent = new Intent(SubActivity.this,
+                ExampleService.class);
+        startService(intent);
+        longTimeStart();
         Log.i("HACK-TAG", "Sub Activity Created.");
+    }
+
+    private void longTimeStart(){
+      /*  for(int i=0;i<55555;i++){
+            Log.i("HACK-TAG", "Sub Activity longTimeAction.");
+        }*/
+    }
+
+    public void sendBoar(String key){
+        onWindowFocusChanged(false);
+        Log.i("HACK-TAG", "SubActivity cmd = " + key);
+        Intent intent = new Intent();
+        intent.setAction("net.tt.jf.broadcast");
+        Log.i("HACK-TAG", "SubActivity cmd 1 = " + key);
+        intent.putExtra("cmd", key);
+        SubActivity.this.sendBroadcast(intent);
+
     }
 
     @Override
@@ -50,9 +77,16 @@ public class SubActivity extends Activity implements View.OnClickListener {
         switch (keyCode) {
             case KeyEvent.KEYCODE_VOLUME_UP:
             case KeyEvent.KEYCODE_VOLUME_DOWN:
-                Intent intent = new Intent("shy.luo.task.mainactivity");
-                startActivity(intent); 
-                onResume();
+                /*
+                * 回调 MainActivity 会导致当前Activity finish();
+                * */
+              /*  Intent intent = new Intent("shy.luo.task.mainactivity");
+                startActivity(intent);*/
+
+                /*
+                * 调用 onPause().音量键可以监听
+                * */
+              //  onPause();
 
             default:
                 break;
@@ -60,6 +94,21 @@ public class SubActivity extends Activity implements View.OnClickListener {
         Log.i("HACK-TAG","subactivity  onkeydown");
         return super.onKeyDown(keyCode, event);
     }
+    @Override
+    public void onResume(){
+        super.onResume();
+        sendBoar("resume");
+    }
 
+    @Override
+    public void onPause(){
+        super.onPause();
+       sendBoar("pause");
+    }
 
+    @Override
+    public void onDestroy(){
+
+        super.onDestroy();
+    }
 }
