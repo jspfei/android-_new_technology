@@ -50,8 +50,8 @@ public class SubActivity extends Activity implements View.OnClickListener {
         switch (keyCode) {
             case KeyEvent.KEYCODE_VOLUME_UP:
             case KeyEvent.KEYCODE_VOLUME_DOWN:
-                Intent intent = new Intent(mact.getClass().toString());
-                startActivity(intent);
+                Intent intent = new Intent("shy.luo.task.mainactivity");
+                startActivity(intent); 
                 onResume();
 
             default:
