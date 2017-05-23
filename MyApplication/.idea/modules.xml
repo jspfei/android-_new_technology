@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/androidbasicskill/androidbasicskill.iml" filepath="$PROJECT_DIR$/androidbasicskill/androidbasicskill.iml" />
       <module fileurl="file://$PROJECT_DIR$/androiddynamicloadclient/androiddynamicloadclient.iml" filepath="$PROJECT_DIR$/androiddynamicloadclient/androiddynamicloadclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/androiddynamicloadingproxy/androiddynamicloadingproxy.iml" filepath="$PROJECT_DIR$/androiddynamicloadingproxy/androiddynamicloadingproxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidkotlin/androidkotlin.iml" filepath="$PROJECT_DIR$/androidkotlin/androidkotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidopenuninstallapk/androidopenuninstallapk.iml" filepath="$PROJECT_DIR$/androidopenuninstallapk/androidopenuninstallapk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidserver/androidserver.iml" filepath="$PROJECT_DIR$/androidserver/androidserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/androiduilistener/androiduilistener.iml" filepath="$PROJECT_DIR$/androiduilistener/androiduilistener.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicdemo/basicdemo.iml" filepath="$PROJECT_DIR$/basicdemo/basicdemo.iml" />
@@ -22,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/interprocessactivitytwo/interprocessactivitytwo.iml" filepath="$PROJECT_DIR$/interprocessactivitytwo/interprocessactivitytwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jfutils/jfutils.iml" filepath="$PROJECT_DIR$/jfutils/jfutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsondemo/jsondemo.iml" filepath="$PROJECT_DIR$/jsondemo/jsondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lotterygame/lotterygame.iml" filepath="$PROJECT_DIR$/lotterygame/lotterygame.iml" />
       <module fileurl="file://$PROJECT_DIR$/manifestdemo/manifestdemo.iml" filepath="$PROJECT_DIR$/manifestdemo/manifestdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/msgreceiver/msgreceiver.iml" filepath="$PROJECT_DIR$/msgreceiver/msgreceiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/paintdemo/paintdemo.iml" filepath="$PROJECT_DIR$/paintdemo/paintdemo.iml" />

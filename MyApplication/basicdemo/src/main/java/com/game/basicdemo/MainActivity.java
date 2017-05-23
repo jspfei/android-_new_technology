@@ -19,6 +19,7 @@ import com.game.basicdemo.bean.Picture;
 import com.game.basicdemo.hanlder.ScreenManager;
 import com.game.basicdemo.lib.CycleViewPager;
 import com.game.basicdemo.utils.ViewFactory;
+import com.game.basicdemo.view.RadioButtonDialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +46,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         ScreenManager.getScreenManager().pushActivity(this);
         context = this;
+
         exit_screen_btn = (Button) findViewById(R.id.exit_screen_btn);
         exit_screen_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +67,11 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(context,"pic  "+position,Toast.LENGTH_SHORT).show();
+
+                RadioButtonDialog radioButtonDialog = new RadioButtonDialog((Activity)context,R.style.Dialog);
+                radioButtonDialog.setTitle("广播周期设定");
+
+                radioButtonDialog.show();
             }
         });
     }

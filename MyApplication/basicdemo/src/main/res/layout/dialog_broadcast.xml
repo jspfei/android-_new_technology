@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="360dp"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="感兴趣电影选择"
+            android:textSize="17sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+    
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbtn_BroadcastClose"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:text="关闭"
+            android:padding="20dp"
+            android:paddingLeft="18dp"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbtn_b15"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:text="15秒"
+            android:padding="20dp"
+            android:paddingLeft="18dp"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbtn_b30"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:text="30秒"
+            android:padding="20dp"
+            android:paddingLeft="18dp"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbtn_b45"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:text="45秒"
+            android:padding="20dp"
+            android:paddingLeft="18dp"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbtn_b60"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:checked="false"
+            android:text="60秒"
+            android:padding="20dp"
+            android:paddingLeft="18dp"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>

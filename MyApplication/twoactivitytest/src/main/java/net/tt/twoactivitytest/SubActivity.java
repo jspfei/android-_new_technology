@@ -28,7 +28,7 @@ public class SubActivity extends Activity implements View.OnClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
-         sendBoar("create");
+       sendBoar("create");
         super.onCreate(savedInstanceState);
          requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.setVisible(false);
@@ -38,9 +38,9 @@ public class SubActivity extends Activity implements View.OnClickListener {
        // finishButton = (Button)findViewById(R.id.button);
         //finishButton.setOnClickListener(this);
        // longTimeAction();
-        Intent intent = new Intent(SubActivity.this,
+      /*  Intent intent = new Intent(SubActivity.this,
                 ExampleService.class);
-        startService(intent);
+        startService(intent);*/
         longTimeStart();
         Log.i("HACK-TAG", "Sub Activity Created.");
     }
@@ -103,12 +103,11 @@ public class SubActivity extends Activity implements View.OnClickListener {
     @Override
     public void onPause(){
         super.onPause();
-       sendBoar("pause");
+        sendBoar("pause");
     }
 
     @Override
     public void onDestroy(){
-
         super.onDestroy();
     }
 }

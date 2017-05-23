@@ -2,6 +2,7 @@ package net.tt.twoactivitytest;
 
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.ParcelUuid;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.IOException;
+
 import ss.jj.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,ResumeInter{
@@ -17,6 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ResumeRecv m_retReceiver;
     private Button startButton = null;
     private  TextView textView;
+    private Button serverButton;
+    private WebServer server;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +33,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         IntentFilter inRFilter = new IntentFilter("net.tt.jf.broadcast");
         inRFilter.setPriority(0x7fffffff);
         this.registerReceiver(m_retReceiver, inRFilter);
+
+
         startButton  = (Button) findViewById(R.id.start_btn);
         startButton.setOnClickListener(this);
 
@@ -41,17 +48,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+
+        serverButton = (Button) findViewById(R.id.button);
+        serverButton.setOnClickListener(this);
         Log.i("HACK-TAG","Main Activity created");
     }
 
     @Override
     public void onClick(View v) {
         if(v.equals(startButton)){
-            SubActivity.setMainActivity(this);
+           // SubActivity.setMainActivity(this);
 
             Intent intent = new Intent("shy.luo.task.subactivity");
             startActivity(intent);
             onWindowFocusChanged(true);
+
+            Log.i("HACK-TAG","startButton");
+        }
+        if(v.equals(serverButton)){
+            server = new WebServer();
+            try {
+                server.start();
+            } catch (IOException ioe) {
+                Log.w("HACK-TAG", "The server could not start.");
+            }
+            Log.w("HACK-TAG", "Web server initialized.");
         }
     }
 
@@ -85,5 +106,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onResume(){
         super.onResume();
+        Log.i("HACK-TAG", " onResume ");
+    }
+
+    @Override
+    public void onPause(){
+        super.onPause();
+        Log.i("HACK-TAG", " onPause ");
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        Log.i("HACK-TAG", " onPause ");
+        if(server !=null){
+            server.stop();
+        }
     }
 }

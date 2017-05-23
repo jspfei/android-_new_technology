@@ -22,7 +22,7 @@ public class ExampleService extends Service {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                for(int i=0;i<99999999;i++){
+                for(int i=0;i<400;i++){
                     Log.i("HACK-TAG", "Sub Activity longTimeAction.");
                 }
             }

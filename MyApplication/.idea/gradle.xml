@@ -12,6 +12,9 @@
             <option value="$PROJECT_DIR$/androidbasicskill" />
             <option value="$PROJECT_DIR$/androiddynamicloadclient" />
             <option value="$PROJECT_DIR$/androiddynamicloadingproxy" />
+            <option value="$PROJECT_DIR$/androidkotlin" />
+            <option value="$PROJECT_DIR$/androidopenuninstallapk" />
+            <option value="$PROJECT_DIR$/androidserver" />
             <option value="$PROJECT_DIR$/androiduilistener" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basicdemo" />
@@ -27,6 +30,7 @@
             <option value="$PROJECT_DIR$/interprocessactivitytwo" />
             <option value="$PROJECT_DIR$/jfutils" />
             <option value="$PROJECT_DIR$/jsondemo" />
+            <option value="$PROJECT_DIR$/lotterygame" />
             <option value="$PROJECT_DIR$/manifestdemo" />
             <option value="$PROJECT_DIR$/msgreceiver" />
             <option value="$PROJECT_DIR$/paintdemo" />

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.tt.androidserver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".server.MyServer"
+            android:exported="true" />
+        <service
+            android:name=".server.MyMessageServer"
+            android:process=":user.new.process.message" />
+        <service android:name=".server.MyBindService" />
+        <service
+            android:name=".server.MyIntentService"
+            android:process=":intent.service" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.cn.plugin.client"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BoundActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".activity.CMessengerActivity" />
+
+        <service
+            android:name=".server.MyForeService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity.JavaCmdShellActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="net.tt.androidserver.receiver.MyBroadcastReceiver"
+            android:exported="true"
+            android:process=":net.kk.ss"
+            >
+
+
+        </receiver>
+    </application>
+
+</manifest>
