@@ -8,10 +8,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="net.tt.charging.MainActivity">
+    >
 
-    <TextView
+    <Button
+        android:text="圆形进度条"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:textAllCaps="false"
+        android:onClick="show"
+        android:id="@+id/button" />
 </RelativeLayout>
