@@ -19,7 +19,9 @@ import com.game.basicdemo.bean.Picture;
 import com.game.basicdemo.hanlder.ScreenManager;
 import com.game.basicdemo.lib.CycleViewPager;
 import com.game.basicdemo.utils.ViewFactory;
+import com.game.basicdemo.view.BaseDialog;
 import com.game.basicdemo.view.RadioButtonDialog;
+import com.game.basicdemo.view.RadioButtonDialog2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,9 +70,15 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(context,"pic  "+position,Toast.LENGTH_SHORT).show();
 
-                RadioButtonDialog radioButtonDialog = new RadioButtonDialog((Activity)context,R.style.Dialog);
+                final RadioButtonDialog2 radioButtonDialog = new RadioButtonDialog2((Activity)context,R.style.Dialog);
                 radioButtonDialog.setTitle("广播周期设定");
-
+               // radioButtonDialog.create();
+                radioButtonDialog.setOnItemCheckListener(new BaseDialog.OnItemCheckListener() {
+                    @Override
+                    public void onItemCheck(int checkedId) {
+                        radioButtonDialog.dismiss();
+                    }
+                });
                 radioButtonDialog.show();
             }
         });
